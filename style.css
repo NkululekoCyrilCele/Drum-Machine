@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.drum-pad {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background-color: #444;
+  color: #fff;
+  font-size: 20px;
+  line-height: 80px;
+  cursor: pointer;
+}
+
+#display {
+  font-size: 24px;
+  margin: 20px;
+}
+
+.drum-pad:hover {
+  background-color: #333;
+}
